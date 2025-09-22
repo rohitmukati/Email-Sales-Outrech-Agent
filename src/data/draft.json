@@ -1,1 +1,31 @@
-{}
+{
+  "prospect": {
+    "email": "gourav.stevesai@gmail.com",
+    "name": "",
+    "role": "",
+    "industry": ""
+  },
+  "draft": {
+    "email": "gourav.stevesai@gmail.com",
+    "subject": "Re: Appointment Confirmation",
+    "body": "Dear Gourav,\n\nThank you for your response! I appreciate your interest in scheduling the meeting. However, I would like to inform you that the slot you requested for tomorrow, Tue, Sep 23 2025 | 10:00 AM - 10:30 AM, is already scheduled.\n\nPlease let me know if you would like to choose another available time, and I will be happy to assist you.\n\nBest regards,\nTalita Alves Clinic Team",
+    "slot_status": "existing",
+    "slots": [],
+    "final_slot": "Tue, Sep 23 2025 | 10:00 AM - 10:30 AM"
+  },
+  "upcoming_events": [
+    {
+      "start_readable": "Tue, Sep 23 2025 | 10:00 AM",
+      "confirmed": true
+    }
+  ],
+  "available_slots": [
+    "Tue, Sep 23 2025 | 09:00 AM - 09:30 AM",
+    "Tue, Sep 23 2025 | 09:30 AM - 10:00 AM",
+    "Tue, Sep 23 2025 | 10:30 AM - 11:00 AM",
+    "Tue, Sep 23 2025 | 11:00 AM - 11:30 AM",
+    "Tue, Sep 23 2025 | 11:30 AM - 12:00 PM"
+  ],
+  "current_mail": "Re: Follow-Up: Appointment Confirmation\nyes please schedule it tomorrow Tue, Sep 23 2025 | 10:00 AM - 10:30 AM\r\n\r\nOn Mon, Sep 22, 2025 at 11:42 AM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Dear Gourav,\r\n>\r\n> Thank you for your response! I have noted your preference for Friday from\r\n> 11:00 AM to 11:30 AM. However, our available slots for the upcoming week\r\n> are as follows:\r\n>\r\n> - Tue, Sep 23 2025 | 09:00 AM - 09:30 AM\r\n> - Tue, Sep 23 2025 | 09:30 AM - 10:00 AM\r\n> - Tue, Sep 23 2025 | 10:00 AM - 10:30 AM\r\n>\r\n> Please let me know if any of these times work for you, and I will be happy\r\n> to confirm your appointment.\r\n>\r\n> Looking forward to your reply!\r\n>\r\n> Best,\r\n> Talita Alves Clinic Team\r\n>",
+  "past_interaction": "Appointment Confirmation for Tomorrow\nDear Gourav,\r\n\r\nThank you for confirming your appointment for tomorrow, Tue, Sep 23 2025, from 10:00 AM to 10:30 AM. I have successfully scheduled your appointment.\r\n\r\nIf you have any questions or need further assistance, feel free to reach out.\r\n\r\nLooking forward to seeing you!\r\n\r\nBest,\r\nTalita Alves Clinic Team\r\n\r\nMeeting details: https://www.google.com/calendar/event?eid=cGs0cTJxbzFmMnYyYWc5aDM2bnF0NmszMjQgZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn"
+}
