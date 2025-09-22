@@ -1,0 +1,27 @@
+email:
+  company_info: "Talita Alves Integrative Aesthetic Clinic, based in São Paulo, Brazil, is recognized as a leading clinic in integrative aesthetics. Known as the 'Celebrity Aesthetic Clinic in SP,' it offers natural results and personalized care through advanced technology and a specialized team."
+  intent: "Book a consultation"
+  personalization: high
+  product_info: "Services include facial care (skin rejuvenation, fillers, harmonization), body treatments (cryolipolysis, cellulite reduction, lymphatic drainage), intimate aesthetics, male aesthetics, and pre & post-operative care. All treatments are personalized using state-of-the-art equipment."
+  sender_company: "Talita Alves Integrative Aesthetic Clinic"
+  sender_location: "São Paulo, Brazil"
+  sender_name: "Talita Alves"
+  signature: "Best regards,\n Talita Alves Clinic Team"
+  company_url: "https://www.talitaalves.com.br/"
+  address: "Av. Fagundes Filho, 141, Cj. 51 – S. Judas – São Paulo – SP, 04304-010, Brazil"
+  contact_phones:
+    - "(11) 5581-1990"
+    - "(11) 97985-0402"
+  services:
+    - Facial Aesthetic Care
+    - Body Aesthetic Treatments
+    - Intimate Aesthetics
+    - Pre & Post-Operative Care
+    - Male Aesthetic Care
+  unique_selling_points:
+    - Personalized protocols tailored to each client
+    - Advanced technology (Ultraformer III, Cryolipolysis, Laser, PDO Threads)
+    - Strategic location near São Judas Metro Station
+    - Trusted by celebrities like DJ Alok and MC Bin Laden
+    - Highly rated (avg. 4.7/5 on Google reviews)
+    - Humanized service combining body, mind, and aesthetics

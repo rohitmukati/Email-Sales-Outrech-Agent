@@ -1,0 +1,7 @@
+working_days: [1, 2, 3, 4, 5]  # Monday=1, Sunday=7
+working_hours:
+  start: "09:00"
+  end: "17:00"
+slot_duration_minutes: 30
+calendar_id: "efd0a903e7b758dde14404deeb9d6546bfa206d7ad53562bea89fd471d2565e7@group.calendar.google.com"
+timezone: "Asia/Kolkata"

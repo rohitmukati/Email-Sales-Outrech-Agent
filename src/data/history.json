@@ -1,0 +1,497 @@
+[
+  {
+    "prospect": {
+      "email": "himanshuvishwakarma.stevesai@gmail.com",
+      "name": "",
+      "role": "ai engineer",
+      "industry": "tech"
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "I’m Good, How Are You? 📅😊✨🎉👍",
+      "body": "Ha bhai kya hal hai, [Prospect's Name]! 🌟😄\n\nThank you for your reply. I would like to confirm that you already have a meeting scheduled on Fri, Sep 19, 2025, at 07:30 PM. 🗓️🕢 Please let me know if you need any further assistance or if there’s anything specific you would like to discuss during our meeting. 🤝💬\n\nLooking forward to our conversation! 🚀😃🎈\n\nBest regards, \n[Your Name] 🖊️😊💼\n\nMeeting details: https://www.google.com/calendar/event?eid=djViY2Y4ZnBiODRkdXQycmlqcmh0dGpzZjggZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+      "slot_status": "confirmed",
+      "slots": [],
+      "final_slot": "Fri, Sep 19 2025 | 07:30 PM"
+    },
+    "upcoming_events": [],
+    "available_slots": [
+      "Fri, Sep 19 2025 | 09:00 AM - 09:30 AM",
+      "Fri, Sep 19 2025 | 09:30 AM - 10:00 AM",
+      "Fri, Sep 19 2025 | 11:00 AM - 11:30 AM",
+      "Fri, Sep 19 2025 | 11:30 AM - 12:00 PM",
+      "Fri, Sep 19 2025 | 12:00 PM - 12:30 PM"
+    ],
+    "current_mail": "",
+    "past_interaction": "",
+    "sent_at": "2025-09-18T18:40:16.630521"
+  },
+  {
+    "prospect": {
+      "email": "gourav.stevesai@gmail.com",
+      "name": "gourav",
+      "role": "ai engineer ",
+      "industry": "CEO"
+    },
+    "draft": {
+      "email": "gourav.stevesai@gmail.com",
+      "subject": "📅 Appointment Confirmation",
+      "body": "Dear Gourav,\n\nThank you for your interest in booking an appointment with us! We have the following available slots:\n\n- Fri, Sep 19 2025 | 09:00 AM - 09:30 AM\n- Fri, Sep 19 2025 | 09:30 AM - 10:00 AM\n- Fri, Sep 19 2025 | 11:00 AM - 11:30 AM\n\nPlease let me know which time works best for you, and I will confirm your appointment. \n\nLooking forward to hearing from you soon! 😊\n\nBest,\nTalita Alves Clinic Team",
+      "slot_status": "suggested",
+      "slots": [
+        "Fri, Sep 19 2025 | 09:00 AM - 09:30 AM",
+        "Fri, Sep 19 2025 | 09:30 AM - 10:00 AM",
+        "Fri, Sep 19 2025 | 11:00 AM - 11:30 AM"
+      ],
+      "final_slot": ""
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Fri, Sep 19 2025 | 09:00 AM - 09:30 AM",
+      "Fri, Sep 19 2025 | 09:30 AM - 10:00 AM",
+      "Fri, Sep 19 2025 | 11:00 AM - 11:30 AM",
+      "Fri, Sep 19 2025 | 11:30 AM - 12:00 PM",
+      "Fri, Sep 19 2025 | 12:00 PM - 12:30 PM"
+    ],
+    "current_mail": "Re: Discover Personalized Aesthetic Solutions\ni want to book appointment\r\n\r\nOn Wed, Sep 17, 2025 at 3:06 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Dear Gourav,\r\n>\r\n> I’m Talita Alves from the Talita Alves Integrative Aesthetic Clinic. We\r\n> offer tailored aesthetic care using advanced technology.\r\n>\r\n> Let’s discuss how we can help you achieve your goals.\r\n>\r\n> Best,\r\n> Talita Alves Clinic Team\r\n>\r\n> 📅 Book Your Evaluation Today\r\n>",
+    "past_interaction": "Appointment Confirmation\nDear Gourav,\r\n\r\nThank you for your interest in booking an appointment with us. I have confirmed your appointment for Wednesday, September 17, 2025, at 3:06 PM UTC+05:30. \r\n\r\nWe look forward to seeing you and discussing your personalized aesthetic solutions.\r\n\r\nBest regards,\r\nTalita Alves Clinic Team\r\n\r\n📅 Book Your Evaluation Today\r\n\r\nMeeting details: https://www.google.com/calendar/event?eid=NnJmMG9zZHRvbnF1MzVubjcyajAwb2QxczggZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+    "sent_at": "2025-09-18T18:47:01.686863"
+  },
+  {
+    "prospect": {
+      "email": "gourav.stevesai@gmail.com",
+      "name": "gourav",
+      "role": "ai engineer ",
+      "industry": "CEO"
+    },
+    "draft": {
+      "email": "gourav.stevesai@gmail.com",
+      "subject": "Appointment Confirmation for Friday",
+      "body": "Dear Gourav,\n\nThank you for your response! I’m pleased to confirm your appointment for Friday, September 19, 2025, from 11:00 AM to 11:30 AM.\n\nLooking forward to seeing you then!\n\nBest,\nTalita Alves Clinic Team\n\nMeeting details: https://www.google.com/calendar/event?eid=OHVxamJkOW81Z2ZvNXI0MWlmYnA5dGkyc3MgZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+      "slot_status": "confirmed",
+      "slots": [
+        "Fri, Sep 19 2025 | 09:00 AM - 09:30 AM",
+        "Fri, Sep 19 2025 | 09:30 AM - 10:00 AM",
+        "Fri, Sep 19 2025 | 10:00 AM - 10:30 AM"
+      ],
+      "final_slot": "Fri, Sep 19 2025 | 11:00 AM - 11:30 AM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Fri, Sep 19 2025 | 09:00 AM - 09:30 AM",
+      "Fri, Sep 19 2025 | 09:30 AM - 10:00 AM",
+      "Fri, Sep 19 2025 | 10:00 AM - 10:30 AM",
+      "Fri, Sep 19 2025 | 10:30 AM - 11:00 AM",
+      "Fri, Sep 19 2025 | 11:00 AM - 11:30 AM"
+    ],
+    "current_mail": "=?UTF-8?Q?Re=3A_=F0=9F=93=85_Appointment_Confirmation?=\nFriday works for me 11:00 am - 11:30 am\r\n\r\n\r\nOn Thu, Sep 18, 2025 at 6:47 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Dear Gourav,\r\n>\r\n> Thank you for your interest in booking an appointment with us! We have the\r\n> following available slots:\r\n>\r\n> - Fri, Sep 19 2025 | 09:00 AM - 09:30 AM\r\n> - Fri, Sep 19 2025 | 09:30 AM - 10:00 AM\r\n> - Fri, Sep 19 2025 | 11:00 AM - 11:30 AM\r\n>\r\n> Please let me know which time works best for you, and I will confirm your\r\n> appointment.\r\n>\r\n> Looking forward to hearing from you soon! 😊\r\n>\r\n> Best,\r\n> Talita Alves Clinic Team\r\n>",
+    "past_interaction": "=?utf-8?q?=F0=9F=93=85?= Appointment Confirmation\nDear Gourav,\r\n\r\nThank you for your interest in booking an appointment with us! We have the following available slots:\r\n\r\n- Fri, Sep 19 2025 | 09:00 AM - 09:30 AM\r\n- Fri, Sep 19 2025 | 09:30 AM - 10:00 AM\r\n- Fri, Sep 19 2025 | 11:00 AM - 11:30 AM\r\n\r\nPlease let me know which time works best for you, and I will confirm your appointment. \r\n\r\nLooking forward to hearing from you soon! 😊\r\n\r\nBest,\r\nTalita Alves Clinic Team",
+    "sent_at": "2025-09-18T19:02:19.181006"
+  },
+  {
+    "prospect": {
+      "email": "rohit@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit@gmail.com",
+      "subject": "Transform Your Wellbeing with Talita Alves Clinic",
+      "body": "Dear [Prospect's Name],\n\nI hope this message finds you well. At Talita Alves Clinic, we specialize in Aesthetic Treatments, Skin Care, and Wellness, providing personalized care from expert doctors using advanced technology. \n\nWe believe that everyone deserves to look and feel their best, and our tailored services can help you achieve just that.\n\n📅 Book Your Evaluation Today to discover how we can assist you on your journey to enhanced wellbeing.\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "none",
+      "slots": [],
+      "final_slot": ""
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Fri, Sep 19 2025 | 09:00 AM - 09:30 AM",
+      "Fri, Sep 19 2025 | 09:30 AM - 10:00 AM",
+      "Fri, Sep 19 2025 | 10:00 AM - 10:30 AM",
+      "Fri, Sep 19 2025 | 10:30 AM - 11:00 AM",
+      "Fri, Sep 19 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "",
+    "past_interaction": "",
+    "sent_at": "2025-09-18T19:59:55.402928"
+  },
+  {
+    "prospect": {
+      "email": "rohanmukati2002@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohanmukati2002@gmail.com",
+      "subject": "🎉 Confirmation of Your Evaluation Appointment 🎉",
+      "body": "Hi Rohan,\n\nThank you for your reply! 😊 I’m glad to hear that Monday works for you. I have the following slots available:\n- Mon, Sep 22 2025 | 09:00 AM - 09:30 AM ⏰\n- Mon, Sep 22 2025 | 09:30 AM - 10:00 AM ⏰\n- Mon, Sep 22 2025 | 10:00 AM - 10:30 AM ⏰\n\nPlease let me know which time suits you best, and I will confirm your appointment. 📅\n\nBest regards,\nTalita Alves \nClinic Team 🌟\n\nBook Your Evaluation Today! 📝✨",
+      "slot_status": "suggested",
+      "slots": [
+        "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+        "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+        "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM"
+      ],
+      "final_slot": ""
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 10:30 AM - 11:00 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM"
+    ],
+    "current_mail": "Re: Let's Schedule Your Evaluation\nMonday works for me.\r\n\r\nOn Sat, 13 Sept 2025 at 13:27, <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohan,\r\n>\r\n> Thank you for your interest in our services! I would be happy to discuss\r\n> our personalized aesthetic treatments with you. You can reach me at +55 11\r\n> 99999-9999.\r\n>\r\n> To schedule a convenient time for your evaluation, I have the following\r\n> slots available:\r\n> - Mon, Sep 15 • 10:00 AM UTC+05:30\r\n> - Mon, Sep 15 • 12:00 PM UTC+05:30\r\n>\r\n> Please let me know which time works best for you!\r\n>\r\n> Best regards,\r\n>  Talita Alves Clinic Team\r\n>\r\n> Book Your Evaluation Today\r\n>",
+    "past_interaction": "Confirmation of Your Evaluation Appointment\nHi Rohan,\r\n\r\nThank you for confirming your availability for Monday! We have you scheduled for your evaluation on **Monday, September 15 at 10:00 AM UTC+05:30**. \r\n\r\nWe look forward to discussing our personalized aesthetic treatments and how we can help you achieve your goals with our advanced technology and tailored protocols.\r\n\r\nIf you have any questions before your appointment, feel free to reach out!\r\n\r\nBest regards,\r\nTalita Alves Clinic Team\r\n\r\nBook Your Evaluation Today\r\n\r\nMeeting details: https://www.google.com/calendar/event?eid=b3FqNnI2ZjdlN3RwdXBsOThhdjhidjJncWsgZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+    "sent_at": "2025-09-19T11:03:36.360809"
+  },
+  {
+    "prospect": {
+      "email": "rohanmukati2002@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohanmukati2002@gmail.com",
+      "subject": "🎉 Confirmation of Your Evaluation Appointment 🎉",
+      "body": "Hi Rohan,\n\nThank you for confirming your appointment! 😊 I have booked your evaluation for Monday, September 22, 2025, at 10:30 AM. \n\nIf you have any questions or need to reschedule, feel free to reach out.\n\nBest regards,\nTalita Alves\nClinic Team 🌟\n\nBook Your Evaluation Today! 📝✨\n\nMeeting details: https://www.google.com/calendar/event?eid=bmFjdGJ2amoyamM4ZHBrMXRscW40MTlrZnMgZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+      "slot_status": "confirmed",
+      "slots": [],
+      "final_slot": "Mon, Sep 22 2025 | 10:30 AM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 10:30 AM - 11:00 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM"
+    ],
+    "current_mail": "=?UTF-8?Q?Re=3A_=F0=9F=8E=89_Confirmation_of_Your_Evaluation_Appointment?=\r\n\t=?UTF-8?Q?_=F0=9F=8E=89?=\nYes it suits me please book appoinment on Monday at 10:30 am\r\n\r\nOn Fri, 19 Sep 2025, 11:03 am , <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohan,\r\n>\r\n> Thank you for your reply! 😊 I’m glad to hear that Monday works for you. I\r\n> have the following slots available:\r\n> - Mon, Sep 22 2025 | 09:00 AM - 09:30 AM ⏰\r\n> - Mon, Sep 22 2025 | 09:30 AM - 10:00 AM ⏰\r\n> - Mon, Sep 22 2025 | 10:00 AM - 10:30 AM ⏰\r\n>\r\n> Please let me know which time suits you best, and I will confirm your\r\n> appointment. 📅\r\n>\r\n> Best regards,\r\n> Talita Alves\r\n> Clinic Team 🌟\r\n>\r\n> Book Your Evaluation Today! 📝✨\r\n>",
+    "past_interaction": "=?utf-8?q?=F0=9F=8E=89_Confirmation_of_Your_Evaluation_Appointment_?=\r\n =?utf-8?q?=F0=9F=8E=89?=\nHi Rohan,\r\n\r\nThank you for your reply! 😊 I’m glad to hear that Monday works for you. I have the following slots available:\r\n- Mon, Sep 22 2025 | 09:00 AM - 09:30 AM ⏰\r\n- Mon, Sep 22 2025 | 09:30 AM - 10:00 AM ⏰\r\n- Mon, Sep 22 2025 | 10:00 AM - 10:30 AM ⏰\r\n\r\nPlease let me know which time suits you best, and I will confirm your appointment. 📅\r\n\r\nBest regards,\r\nTalita Alves \r\nClinic Team 🌟\r\n\r\nBook Your Evaluation Today! 📝✨",
+    "sent_at": "2025-09-19T11:06:33.936396"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "rohit",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic 😊",
+      "body": "Hi Rohit,\n\nThank you for your response! I wanted to remind you that you already have a scheduled meeting with us on **Friday, September 19 at 7:30 PM**. \n\nIf you have any questions or need further assistance, feel free to reach out.\n\nLooking forward to seeing you then!\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "existing",
+      "slots": [],
+      "final_slot": "Fri, Sep 19 2025 | 07:30 PM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "Fri, Sep 19 2025 | 07:30 PM",
+        "confirmed": true
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic\nyes please schedule tommorow\r\n\r\nOn Tue, Sep 16, 2025 at 3:02 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohit,\r\n>\r\n> Thank you for your interest in Talita Alves Integrative Aesthetic Clinic!\r\n> We’re excited to help you transform your aesthetic experience with our\r\n> personalized protocols and advanced technology.\r\n>\r\n> To get started, I’d love to schedule your evaluation. Here are a couple of\r\n> slots we have available:\r\n>\r\n> - **Wednesday, September 17 at 9:00 AM** (UTC+05:30)\r\n> - **Wednesday, September 17 at 9:30 AM** (UTC+05:30)\r\n>\r\n> Please let me know which time works best for you, or if you need a\r\n> different time, we can find something that suits your schedule.\r\n>\r\n> Looking forward to hearing from you!\r\n>\r\n> Best regards,\r\n>  Talita Alves Clinic Team\r\n>",
+    "past_interaction": "=?utf-8?b?SeKAmW0gR29vZCwgSG93IEFyZSBZb3U/IPCfk4Xwn5iK4pyo8J+OiQ==?=\r\n =?utf-8?q?=F0=9F=91=8D?=\nHa bhai kya hal hai, [Prospect's Name]! 🌟😄\r\n\r\nThank you for your reply. I would like to confirm that you already have a meeting scheduled on Fri, Sep 19, 2025, at 07:30 PM. 🗓️🕢 Please let me know if you need any further assistance or if there’s anything specific you would like to discuss during our meeting. 🤝💬\r\n\r\nLooking forward to our conversation! 🚀😃🎈\r\n\r\nBest regards, \r\n[Your Name] 🖊️😊💼\r\n\r\nMeeting details: https://www.google.com/calendar/event?eid=djViY2Y4ZnBiODRkdXQycmlqcmh0dGpzZjggZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+    "sent_at": "2025-09-19T11:59:12.643246"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "Rohit Mukati",
+      "role": "Ai Engineer",
+      "industry": "Technology"
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "🌟 Re: Let's Schedule Your Evaluation at Talita Alves Clinic 🌟",
+      "body": "Good afternoon, Mam Rohit,\n\nThank you for your response! I wanted to let you know that you already have a meeting scheduled for **Friday, September 19, 2025 at 07:30 PM**. \n\nIf you would like to discuss rescheduling or have any other questions, please feel free to reach out. 😊\n\nLooking forward to seeing you soon!\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "existing",
+      "slots": [],
+      "final_slot": "Fri, Sep 19 2025 | 07:30 PM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "Fri, Sep 19 2025 | 07:30 PM",
+        "confirmed": true
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic\nyes please schedule tommorow\r\n\r\nOn Tue, Sep 16, 2025 at 3:02 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohit,\r\n>\r\n> Thank you for your interest in Talita Alves Integrative Aesthetic Clinic!\r\n> We’re excited to help you transform your aesthetic experience with our\r\n> personalized protocols and advanced technology.\r\n>\r\n> To get started, I’d love to schedule your evaluation. Here are a couple of\r\n> slots we have available:\r\n>\r\n> - **Wednesday, September 17 at 9:00 AM** (UTC+05:30)\r\n> - **Wednesday, September 17 at 9:30 AM** (UTC+05:30)\r\n>\r\n> Please let me know which time works best for you, or if you need a\r\n> different time, we can find something that suits your schedule.\r\n>\r\n> Looking forward to hearing from you!\r\n>\r\n> Best regards,\r\n>  Talita Alves Clinic Team\r\n>",
+    "past_interaction": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic \r\n =?utf-8?q?=F0=9F=98=8A?=\nHi Rohit,\r\n\r\nThank you for your response! I wanted to remind you that you already have a scheduled meeting with us on **Friday, September 19 at 7:30 PM**. \r\n\r\nIf you have any questions or need further assistance, feel free to reach out.\r\n\r\nLooking forward to seeing you then!\r\n\r\nBest regards,\r\nTalita Alves Clinic Team",
+    "sent_at": "2025-09-19T12:05:46.655896"
+  },
+  {
+    "prospect": {
+      "email": "rohitmukati70890@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohitmukati70890@gmail.com",
+      "subject": "✨ Transform Your Well-Being with Talita Alves Clinic ✨",
+      "body": "Dear [Prospect's Name],\n\nAt Talita Alves Clinic, we specialize in providing personalized care through our expert doctors and advanced technology. Our services in aesthetic treatments, skin care, and wellness are designed to enhance your overall well-being. 🌟\n\nWe understand that every individual has unique needs, and our tailored approach ensures that you receive the best possible care. 💖\n\n📅 Book Your Evaluation Today to discover how we can help you achieve your health and beauty goals! \n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "none",
+      "slots": [],
+      "final_slot": ""
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "",
+    "past_interaction": "",
+    "sent_at": "2025-09-19T12:12:57.096480"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic",
+      "body": "Hi Rohit,\n\nThank you for your response! I wanted to let you know that you already have a scheduled meeting with us on **Friday, September 19 at 7:30 PM**. \n\nIf you have any questions or need to reschedule, please feel free to reach out. We're looking forward to seeing you then!\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "existing",
+      "slots": [],
+      "final_slot": "Fri, Sep 19 2025 | 07:30 PM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "Fri, Sep 19 2025 | 07:30 PM",
+        "confirmed": true
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic\nyes please schedule tommorow\r\n\r\nOn Tue, Sep 16, 2025 at 3:02 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohit,\r\n>\r\n> Thank you for your interest in Talita Alves Integrative Aesthetic Clinic!\r\n> We’re excited to help you transform your aesthetic experience with our\r\n> personalized protocols and advanced technology.\r\n>\r\n> To get started, I’d love to schedule your evaluation. Here are a couple of\r\n> slots we have available:\r\n>\r\n> - **Wednesday, September 17 at 9:00 AM** (UTC+05:30)\r\n> - **Wednesday, September 17 at 9:30 AM** (UTC+05:30)\r\n>\r\n> Please let me know which time works best for you, or if you need a\r\n> different time, we can find something that suits your schedule.\r\n>\r\n> Looking forward to hearing from you!\r\n>\r\n> Best regards,\r\n>  Talita Alves Clinic Team\r\n>",
+    "past_interaction": "=?utf-8?q?=F0=9F=8C=9F?= Re: Let's Schedule Your Evaluation at Talita\r\n Alves Clinic =?utf-8?q?=F0=9F=8C=9F?=\nGood afternoon, Mam Rohit,\r\n\r\nThank you for your response! I wanted to let you know that you already have a meeting scheduled for **Friday, September 19, 2025 at 07:30 PM**. \r\n\r\nIf you would like to discuss rescheduling or have any other questions, please feel free to reach out. 😊\r\n\r\nLooking forward to seeing you soon!\r\n\r\nBest regards,\r\nTalita Alves Clinic Team",
+    "sent_at": "2025-09-19T12:17:16.107888"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic 😊",
+      "body": "Hi Rohit,\n\nThank you for your response! I wanted to let you know that you already have a meeting scheduled for **Friday, September 19 at 7:30 PM**. If you would like to keep that appointment, please confirm ✅, or if you need to reschedule, let me know and we can find another time that works for you.\n\nLooking forward to your reply! 😊\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "existing",
+      "slots": [],
+      "final_slot": "Fri, Sep 19 2025 | 07:30 PM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "Fri, Sep 19 2025 | 07:30 PM",
+        "confirmed": true
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic\nyes please schedule tommorow\r\n\r\nOn Tue, Sep 16, 2025 at 3:02 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohit,\r\n>\r\n> Thank you for your interest in Talita Alves Integrative Aesthetic Clinic!\r\n> We’re excited to help you transform your aesthetic experience with our\r\n> personalized protocols and advanced technology.\r\n>\r\n> To get started, I’d love to schedule your evaluation. Here are a couple of\r\n> slots we have available:\r\n>\r\n> - **Wednesday, September 17 at 9:00 AM** (UTC+05:30)\r\n> - **Wednesday, September 17 at 9:30 AM** (UTC+05:30)\r\n>\r\n> Please let me know which time works best for you, or if you need a\r\n> different time, we can find something that suits your schedule.\r\n>\r\n> Looking forward to hearing from you!\r\n>\r\n> Best regards,\r\n>  Talita Alves Clinic Team\r\n>",
+    "past_interaction": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic\nHi Rohit,\r\n\r\nThank you for your response! I wanted to let you know that you already have a scheduled meeting with us on **Friday, September 19 at 7:30 PM**. \r\n\r\nIf you have any questions or need to reschedule, please feel free to reach out. We're looking forward to seeing you then!\r\n\r\nBest regards,\r\nTalita Alves Clinic Team",
+    "sent_at": "2025-09-19T12:21:55.411637"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic 😊",
+      "body": "Hi Rohit,\n\nThank you for letting me know about your availability. I understand that you can't make it at the previously scheduled time. \n\nHere are some available slots that you can choose from:\n- Mon, Sep 22 2025 | 09:00 AM - 09:30 AM\n- Mon, Sep 22 2025 | 09:30 AM - 10:00 AM\n- Mon, Sep 22 2025 | 10:00 AM - 10:30 AM\n\nPlease let me know which time works best for you, and I’ll be happy to confirm it!\n\nLooking forward to your reply!\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "suggested",
+      "slots": [
+        "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+        "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+        "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM"
+      ],
+      "final_slot": ""
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "=?UTF-8?Q?Re=3A_Let=27s_Schedule_Your_Evaluation_at_Talita_Alves_C?=\r\n\t=?UTF-8?Q?linic_=F0=9F=98=8A?=\nI am not available at that time.\r\n\r\nOn Fri, Sep 19, 2025 at 12:21 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohit,\r\n>\r\n> Thank you for your response! I wanted to let you know that you already\r\n> have a meeting scheduled for **Friday, September 19 at 7:30 PM**. If you\r\n> would like to keep that appointment, please confirm ✅, or if you need to\r\n> reschedule, let me know and we can find another time that works for you.\r\n>\r\n> Looking forward to your reply! 😊\r\n>\r\n> Best regards,\r\n> Talita Alves Clinic Team\r\n>",
+    "past_interaction": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic \r\n =?utf-8?q?=F0=9F=98=8A?=\nHi Rohit,\r\n\r\nThank you for your response! I wanted to let you know that you already have a meeting scheduled for **Friday, September 19 at 7:30 PM**. If you would like to keep that appointment, please confirm ✅, or if you need to reschedule, let me know and we can find another time that works for you.\r\n\r\nLooking forward to your reply! 😊\r\n\r\nBest regards,\r\nTalita Alves Clinic Team",
+    "sent_at": "2025-09-19T14:11:36.449885"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic 😊",
+      "body": "Hi Rohit,\n\nThank you for your response! Unfortunately, the time you requested on Monday at 1 PM is not available. However, here are some available slots for your evaluation:\n- Mon, Sep 22 2025 | 09:00 AM - 09:30 AM\n- Mon, Sep 22 2025 | 09:30 AM - 10:00 AM\n- Mon, Sep 22 2025 | 10:00 AM - 10:30 AM\n\nPlease let me know which time works best for you, and I’ll be happy to confirm it!\n\nLooking forward to your reply!\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "suggested",
+      "slots": [
+        "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+        "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+        "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM"
+      ],
+      "final_slot": ""
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "=?UTF-8?Q?Re=3A_Let=27s_Schedule_Your_Evaluation_at_Talita_Alves_C?=\r\n\t=?UTF-8?Q?linic_=F0=9F=98=8A?=\nplease schedule on monday at 1 pm\r\n\r\nOn Fri, Sep 19, 2025 at 2:11 PM <h.panchallinux0102@gmail.com> wrote:\r\n\r\n> Hi Rohit,\r\n>\r\n> Thank you for letting me know about your availability. I understand that\r\n> you can't make it at the previously scheduled time.\r\n>\r\n> Here are some available slots that you can choose from:\r\n> - Mon, Sep 22 2025 | 09:00 AM - 09:30 AM\r\n> - Mon, Sep 22 2025 | 09:30 AM - 10:00 AM\r\n> - Mon, Sep 22 2025 | 10:00 AM - 10:30 AM\r\n>\r\n> Please let me know which time works best for you, and I’ll be happy to\r\n> confirm it!\r\n>\r\n> Looking forward to your reply!\r\n>\r\n> Best regards,\r\n> Talita Alves Clinic Team\r\n>",
+    "past_interaction": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic \r\n =?utf-8?q?=F0=9F=98=8A?=\nHi Rohit,\r\n\r\nThank you for letting me know about your availability. I understand that you can't make it at the previously scheduled time. \r\n\r\nHere are some available slots that you can choose from:\r\n- Mon, Sep 22 2025 | 09:00 AM - 09:30 AM\r\n- Mon, Sep 22 2025 | 09:30 AM - 10:00 AM\r\n- Mon, Sep 22 2025 | 10:00 AM - 10:30 AM\r\n\r\nPlease let me know which time works best for you, and I’ll be happy to confirm it!\r\n\r\nLooking forward to your reply!\r\n\r\nBest regards,\r\nTalita Alves Clinic Team",
+    "sent_at": "2025-09-19T14:14:18.994036"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "Confirmation of Your Evaluation Slot",
+      "body": "Hi Rohit,\n\nThank you for your response! I'm happy to confirm your evaluation on Monday at 9:00 AM. \n\nLooking forward to seeing you then!\n\nBest regards,\nTalita Alves Clinic Team\n\nMeeting details: https://www.google.com/calendar/event?eid=bDZ2ZWc0Mmg0b3MxdWgwdGc0dm9pYWxyaDggZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+      "slot_status": "confirmed",
+      "slots": [],
+      "final_slot": "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "",
+        "confirmed": false
+      }
+    ],
+    "available_slots": [
+      "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM",
+      "Mon, Sep 22 2025 | 09:30 AM - 10:00 AM",
+      "Mon, Sep 22 2025 | 10:00 AM - 10:30 AM",
+      "Mon, Sep 22 2025 | 11:00 AM - 11:30 AM",
+      "Mon, Sep 22 2025 | 11:30 AM - 12:00 PM"
+    ],
+    "current_mail": "=?UTF-8?Q?Re=3A_Let=27s_Schedule_Your_Evaluation_at_Talita_Alves_C?=\r\n\t=?UTF-8?Q?linic_=F0=9F=98=8A?=\nschedule on monday at 9 am\r\n\r\nOn Fri, Sep 19, 2025 at 2:15 PM Rohit Mukati <rohit.stevesai@gmail.com>\r\nwrote:\r\n\r\n> Monday works for me.  anytime\r\n>\r\n> On Fri, Sep 19, 2025 at 2:14 PM <h.panchallinux0102@gmail.com> wrote:\r\n>\r\n>> Hi Rohit,\r\n>>\r\n>> Thank you for your response! Unfortunately, the time you requested on\r\n>> Monday at 1 PM is not available. However, here are some available slots for\r\n>> your evaluation:\r\n>> - Mon, Sep 22 2025 | 09:00 AM - 09:30 AM\r\n>> - Mon, Sep 22 2025 | 09:30 AM - 10:00 AM\r\n>> - Mon, Sep 22 2025 | 10:00 AM - 10:30 AM\r\n>>\r\n>> Please let me know which time works best for you, and I’ll be happy to\r\n>> confirm it!\r\n>>\r\n>> Looking forward to your reply!\r\n>>\r\n>> Best regards,\r\n>> Talita Alves Clinic Team\r\n>>\r\n>",
+    "past_interaction": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic \r\n =?utf-8?q?=F0=9F=98=8A?=\nHi Rohit,\r\n\r\nThank you for your response! Unfortunately, the time you requested on Monday at 1 PM is not available. However, here are some available slots for your evaluation:\r\n- Mon, Sep 22 2025 | 09:00 AM - 09:30 AM\r\n- Mon, Sep 22 2025 | 09:30 AM - 10:00 AM\r\n- Mon, Sep 22 2025 | 10:00 AM - 10:30 AM\r\n\r\nPlease let me know which time works best for you, and I’ll be happy to confirm it!\r\n\r\nLooking forward to your reply!\r\n\r\nBest regards,\r\nTalita Alves Clinic Team",
+    "sent_at": "2025-09-19T14:18:14.842278"
+  },
+  {
+    "prospect": {
+      "email": "rohit.stevesai@gmail.com",
+      "name": "",
+      "role": "",
+      "industry": ""
+    },
+    "draft": {
+      "email": "rohit.stevesai@gmail.com",
+      "subject": "Re: Let's Schedule Your Evaluation at Talita Alves Clinic 😊",
+      "body": "Hi Rohit,\n\nThank you for your response! I wanted to inform you that we already have your evaluation scheduled for Monday, September 22, 2025, at 09:00 AM.\n\nIf you have any questions or need to make adjustments, please feel free to reach out.\n\nLooking forward to seeing you then!\n\nBest regards,\nTalita Alves Clinic Team",
+      "slot_status": "existing",
+      "slots": [],
+      "final_slot": "Mon, Sep 22 2025 | 09:00 AM - 09:30 AM"
+    },
+    "upcoming_events": [
+      {
+        "start_readable": "Mon, Sep 22 2025 | 09:00 AM",
+        "confirmed": true
+      }
+    ],
+    "available_slots": [
+      "Tue, Sep 23 2025 | 09:00 AM - 09:30 AM",
+      "Tue, Sep 23 2025 | 09:30 AM - 10:00 AM",
+      "Tue, Sep 23 2025 | 10:00 AM - 10:30 AM",
+      "Tue, Sep 23 2025 | 10:30 AM - 11:00 AM",
+      "Tue, Sep 23 2025 | 11:00 AM - 11:30 AM"
+    ],
+    "current_mail": "=?UTF-8?Q?Re=3A_Let=27s_Schedule_Your_Evaluation_at_Talita_Alves_C?=\r\n\t=?UTF-8?Q?linic_=F0=9F=98=8A?=\nschedule on monday at 9 am\r\n\r\nOn Fri, Sep 19, 2025 at 2:15 PM Rohit Mukati <rohit.stevesai@gmail.com>\r\nwrote:\r\n\r\n> Monday works for me.  anytime\r\n>\r\n> On Fri, Sep 19, 2025 at 2:14 PM <h.panchallinux0102@gmail.com> wrote:\r\n>\r\n>> Hi Rohit,\r\n>>\r\n>> Thank you for your response! Unfortunately, the time you requested on\r\n>> Monday at 1 PM is not available. However, here are some available slots for\r\n>> your evaluation:\r\n>> - Mon, Sep 22 2025 | 09:00 AM - 09:30 AM\r\n>> - Mon, Sep 22 2025 | 09:30 AM - 10:00 AM\r\n>> - Mon, Sep 22 2025 | 10:00 AM - 10:30 AM\r\n>>\r\n>> Please let me know which time works best for you, and I’ll be happy to\r\n>> confirm it!\r\n>>\r\n>> Looking forward to your reply!\r\n>>\r\n>> Best regards,\r\n>> Talita Alves Clinic Team\r\n>>\r\n>",
+    "past_interaction": "Confirmation of Your Evaluation Slot\nHi Rohit,\r\n\r\nThank you for your response! I'm happy to confirm your evaluation on Monday at 9:00 AM. \r\n\r\nLooking forward to seeing you then!\r\n\r\nBest regards,\r\nTalita Alves Clinic Team\r\n\r\nMeeting details: https://www.google.com/calendar/event?eid=bDZ2ZWc0Mmg0b3MxdWgwdGc0dm9pYWxyaDggZWZkMGE5MDNlN2I3NThkZGUxNDQwNGRlZWI5ZDY1NDZiZmEyMDZkN2FkNTM1NjJiZWE4OWZkNDcxZDI1NjVlN0Bn",
+    "sent_at": "2025-09-22T11:27:23.044003"
+  }
+]

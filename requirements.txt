@@ -1,0 +1,38 @@
+# LLM & LangChain
+langchain>=0.2.11
+langgraph>=0.2.14
+langchain-openai>=0.1.23
+tiktoken>=0.7.0
+
+# Environment & config
+python-dotenv>=1.0.1
+PyYAML>=6.0
+
+# Google API
+google-api-python-client>=2.97.0
+google-auth>=2.22.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Timezone & datetime
+pytz>=2025.1
+
+# Logging & utilities
+requests>=2.31.0
+
+# Email
+smtplib
+imaplib
+email
+
+# FastAPI
+fastapi>=0.103.0
+pydantic>=1.10.9
+
+dotenv 
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+PyYAML
+pytz

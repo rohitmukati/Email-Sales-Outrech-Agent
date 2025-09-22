@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Email Sales Outrech Agent</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root{
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --muted:#667085;
+      --accent:#0f1724; /* dark accent */
+      --success:#16a34a;
+      --danger:#ef4444;
+      --text:#0b1220;
+      --soft-border:#e6e9ef;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      background:var(--bg);
+      color:var(--text);
+      margin:0;
+      padding:20px;
+      -webkit-font-smoothing:antialiased;
+    }
+    .container{max-width:1100px;margin:0 auto;}
+    header{display:flex;gap:16px;align-items:center;margin-bottom:18px}
+    h1{font-size:20px;margin:0;font-weight:700}
+    .grid{display:grid;grid-template-columns: 360px 1fr; gap:18px}
+    .card{
+      background:var(--card);
+      padding:18px;border-radius:12px;
+      box-shadow:0 6px 20px rgba(16,24,40,0.06);
+      border:1px solid var(--soft-border);
+    }
+    label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+    input[type="text"], textarea, select{
+      width:100%;padding:10px;border-radius:8px;border:1px solid var(--soft-border);background:transparent;color:var(--text);font-size:14px;box-sizing:border-box;
+    }
+    button{
+      background:var(--accent);color:#fff;border:0;padding:10px 12px;border-radius:8px;font-weight:600;cursor:pointer;
+      box-shadow:0 4px 10px rgba(15,23,36,0.08);
+    }
+    .btn-ghost{background:transparent;border:1px solid var(--soft-border);color:var(--text)}
+    .muted{color:var(--muted);font-size:13px}
+    .meta-row{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:10px}
+    .meta-pill{background:#fbfdff;padding:6px 10px;border-radius:999px;font-size:13px;border:1px solid var(--soft-border);color:var(--text)}
+    .small{font-size:13px}
+    .row{display:flex;gap:8px;align-items:center}
+    .footer{margin-top:14px;color:var(--muted);font-size:13px}
+    .danger{color:var(--danger)}
+    .success{color:var(--success)}
+    .actions{display:flex;gap:8px;margin-top:12px}
+    .flex-between{display:flex;justify-content:space-between;align-items:center}
+    /* spinner */
+    .spinner{border:3px solid rgba(11,18,32,0.08); border-left:3px solid var(--card); border-radius:50%; width:14px; height:14px; display:inline-block; margin-right:8px; vertical-align:middle; animation:spin 0.9s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .btn-loading{opacity:0.95; cursor:default}
+    /* Mail boxes style (same size) */
+    .mail-box{
+      background:#fbfdff;
+      border:1px solid var(--soft-border);
+      color:var(--text);
+      padding:12px;
+      border-radius:8px;
+      min-height:140px;
+      max-height:220px;
+      overflow:auto;
+      white-space:pre-wrap;
+      font-size:13px;
+      box-shadow:0 4px 10px rgba(15,23,36,0.03);
+    }
+    /* subject/body larger rectangle */
+    #subject-field{font-weight:600;padding:12px;border-radius:10px;border:1px solid var(--soft-border);font-size:15px}
+    #body-field{min-height:320px; max-height:520px; border-radius:10px;border:1px solid var(--soft-border); padding:12px; font-size:14px; line-height:1.5; resize:vertical}
+    /* responsive */
+    @media (max-width:980px){
+      .grid{grid-template-columns: 1fr; }
+      #body-field{min-height:260px}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>✉️ Sales Outrech Agent </h1>
+      <div class="muted" style="margin-left:auto">Backend:
+        <input id="backend-url" type="text" value="http://localhost:8000" style="width:240px;display:inline-block;margin-left:8px"/>
+      </div>
+    </header>
+
+    <div class="grid">
+      <!-- LEFT Column: Controls -->
+      <div class="card">
+        <div class="small muted">Generate a draft</div>
+        <label>Email</label>
+        <input id="input-email" type="text" placeholder="prospect@example.com"/>
+        <label>Name</label>
+        <input id="input-name" type="text" placeholder="Prospect name (optional)"/>
+        <label>Role</label>
+        <input id="input-role" type="text" placeholder="Role (optional)"/>
+        <label>Industry</label>
+        <input id="input-industry" type="text" placeholder="Industry (optional)"/>
+        <div style="margin-top:10px" class="row">
+          <button id="btn-generate">Generate draft</button>
+          <button id="btn-history" class="btn-ghost">Fetch history</button>
+        </div>
+
+        <hr style="margin:14px 0;border:none;border-top:1px solid var(--soft-border)"/>
+
+        <div class="small muted">Feedback & actions</div>
+        <label>Feedback (for update)</label>
+        <textarea id="input-feedback" rows="4" placeholder="E.g. Make subject shorter; keep tone formal"></textarea>
+
+        <div class="actions">
+          <button id="btn-update">Update draft (U)</button>
+          <button id="btn-send" style="background:var(--danger);">Send mail (A)</button>
+        </div>
+
+        <div class="footer">
+          <div id="status-line" class="muted">Status: idle</div>
+        </div>
+      </div>
+
+      <!-- RIGHT Column: Draft Box + Meta -->
+      <div class="card">
+        <div style="display:flex;gap:14px;align-items:flex-start;justify-content:space-between">
+          <div>
+            <div class="muted">Prospect conversation</div>
+            <div id="meta-area" style="margin-top:8px">
+              <div class="meta-row">
+                <div class="meta-pill">Prospect Slot status: <span id="slot-status">—</span></div>
+              </div>
+              <div style="margin-top:8px;display:grid;grid-template-columns:1fr 1fr;gap:12px">
+                <div>
+                  <div style="font-size:13px;color:var(--muted)">Current mail (Received mail)</div>
+                  <div id="current-mail" class="mail-box">No current mail loaded</div>
+                </div>
+                <div>
+                  <div style="font-size:13px;color:var(--muted)">Past interaction (Sent Mail)</div>
+                  <div id="past-interaction" class="mail-box">No past interaction</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- removed controls area as requested -->
+        </div>
+
+        <hr style="margin:12px 0;border:none;border-top:1px solid var(--soft-border)"/>
+
+        <div style="display:flex;gap:18px;align-items:flex-start">
+          <div style="flex:1">
+            <label class="muted">Subject</label>
+            <input id="subject-field" type="text" readonly />
+            <label class="muted" style="margin-top:8px">Body</label>
+            <textarea id="body-field" rows="10" readonly></textarea>
+
+            <div class="muted small" style="margin-top:8px">Edit subject/body by enabling the checkboxes (left controls previously removed). Click Update to persist via backend.</div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<script>
+(function(){
+  const backendInput = document.getElementById('backend-url')
+  function backend(){ return backendInput.value.trim().replace(/\/+$/, '') || 'http://localhost:8000' }
+
+  const S = {
+    email: document.getElementById('input-email'),
+    name: document.getElementById('input-name'),
+    role: document.getElementById('input-role'),
+    industry: document.getElementById('input-industry'),
+    btnGenerate: document.getElementById('btn-generate'),
+    btnHistory: document.getElementById('btn-history'),
+    btnUpdate: document.getElementById('btn-update'),
+    btnSend: document.getElementById('btn-send'),
+    feedback: document.getElementById('input-feedback'),
+    subjectField: document.getElementById('subject-field'),
+    bodyField: document.getElementById('body-field'),
+    currentMail: document.getElementById('current-mail'),
+    pastInteraction: document.getElementById('past-interaction'),
+    slotStatus: document.getElementById('slot-status'),
+    statusLine: document.getElementById('status-line')
+  }
+
+  let draftData = null
+
+  function setStatus(msg, isError=false){
+    S.statusLine.textContent = 'Status: ' + msg
+    S.statusLine.style.color = isError ? 'var(--danger)' : 'var(--muted)'
+  }
+
+  /* Button loading helper */
+  function setButtonLoading(btn, loading, label){
+    if(loading){
+      btn.dataset.orig = btn.innerHTML
+      btn.classList.add('btn-loading')
+      btn.disabled = true
+      btn.innerHTML = '<span class="spinner"></span>' + (label || btn.dataset.orig || 'Working...')
+    } else {
+      btn.disabled = false
+      btn.classList.remove('btn-loading')
+      if(btn.dataset.orig) btn.innerHTML = btn.dataset.orig
+    }
+  }
+
+  async function callApi(path, method='GET', body=null, timeout=30000){
+    const url = backend() + path
+    const opts = { method, headers: { 'Content-Type': 'application/json' } }
+    if(body !== null) opts.body = JSON.stringify(body)
+    try {
+      const controller = new AbortController()
+      const id = setTimeout(()=>controller.abort(), timeout)
+      opts.signal = controller.signal
+      const res = await fetch(url, opts)
+      clearTimeout(id)
+      const text = await res.text()
+      let json = null
+      try{ json = text ? JSON.parse(text) : null }catch(e){}
+      return { ok: res.ok, status: res.status, text, json }
+    } catch(err){
+      return { ok: false, status: 0, text: String(err), json: null }
+    }
+  }
+
+  function renderDraftToUI(d){
+    draftData = d || {}
+    const draft = draftData && draftData.draft ? draftData.draft : draftData
+    S.subjectField.value = draft && draft.subject ? draft.subject : ''
+    S.bodyField.value = draft && draft.body ? draft.body : ''
+    const current = draftData.current_mail || draftData.currentMail || (draft && draft.current_mail) || ''
+    const past = draftData.past_interaction || draftData.pastInteraction || (draft && draft.past_interaction) || ''
+    const slot = draft && draft.slot_status ? draft.slot_status : (draftData && draftData.upcoming_events ? (Array.isArray(draftData.upcoming_events) && draftData.upcoming_events.find(e=>e.confirmed) ? 'confirmed' : 'no-confirm') : (draftData && draftData.slot_status) || '—')
+    S.currentMail.textContent = current ? (String(current).slice(0,300) + (String(current).length>300 ? ' ...' : '')) : 'No current mail loaded'
+    S.pastInteraction.textContent = past ? (String(past).slice(0,300) + (String(past).length>300 ? ' ...' : '')) : 'No past interaction'
+    S.slotStatus.textContent = slot || '—'
+  }
+
+  // Generate
+  S.btnGenerate.addEventListener('click', async ()=>{
+    const email = S.email.value.trim()
+    if(!email){ alert('Email required'); return }
+    setStatus('Generating draft...')
+    setButtonLoading(S.btnGenerate, true, 'Generating...')
+    try{
+      const payload = { email, name: S.name.value.trim(), role: S.role.value.trim(), industry: S.industry.value.trim() }
+      const res = await callApi('/api/generate-draft', 'POST', payload, 45000)
+      if(res.ok){
+        const obj = res.json || (res.text ? JSON.parse(res.text) : null)
+        renderDraftToUI(obj || {})
+        setStatus('Draft loaded')
+      } else {
+        setStatus('Generate failed', true)
+        alert('Generate failed: ' + res.status + '\n' + (res.text || res.status))
+      }
+    }catch(e){
+      setStatus('Generate error', true)
+      alert('Generate error: ' + e)
+    } finally {
+      setButtonLoading(S.btnGenerate, false)
+    }
+  })
+
+  // Update (U)
+  S.btnUpdate.addEventListener('click', async ()=>{
+    if(!draftData){ alert('Generate a draft first'); return }
+    const feedback = S.feedback.value.trim()
+    if(!feedback){ if(!confirm('Send empty feedback? OK to proceed.')) return }
+    setStatus('Sending update (U) to backend...')
+    setButtonLoading(S.btnUpdate, true, 'Updating...')
+    try{
+      const res = await callApi('/api/act','POST',{ decision: 'U', feedback }, 45000)
+      if(res.ok){
+        const j = res.json || (res.text ? JSON.parse(res.text) : null)
+        if(j){
+          const newDraft = j.draft || j
+          renderDraftToUI(newDraft || {})
+          setStatus('Draft updated and UI refreshed')
+        } else {
+          setStatus('Updated but non-JSON response', true)
+          alert('Update succeeded but server returned non-JSON')
+        }
+      } else {
+        setStatus('Update failed', true)
+        alert('Update failed: ' + res.status + '\n' + (res.text || res.status))
+      }
+    }catch(e){
+      setStatus('Update error', true)
+      alert('Update error: ' + e)
+    } finally {
+      setButtonLoading(S.btnUpdate, false)
+    }
+  })
+
+  // Send (A)
+  S.btnSend.addEventListener('click', async ()=>{
+    if(!draftData){ alert('Generate a draft first'); return }
+    setStatus('Sending approval (A)...')
+    setButtonLoading(S.btnSend, true, 'Sending...')
+    try{
+      const res = await callApi('/api/act','POST',{ decision: 'A', feedback: null }, 90000)
+      if(res.ok){
+        setStatus('Send completed (server success)')
+        const j = res.json || (res.text ? JSON.parse(res.text) : null)
+        if(j){
+          renderDraftToUI(j)
+        } else {
+          draftData = null
+          S.subjectField.value = ''
+          S.bodyField.value = ''
+          S.currentMail.textContent = 'No current mail loaded'
+          S.pastInteraction.textContent = 'No past interaction'
+          S.slotStatus.textContent = '—'
+        }
+      } else {
+        setStatus('Send failed', true)
+        alert('Send failed: ' + res.status + '\n' + (res.text || res.status))
+      }
+    }catch(e){
+      setStatus('Send error', true)
+      alert('Send error: ' + e)
+    } finally {
+      setButtonLoading(S.btnSend, false)
+    }
+  })
+
+  // History (fetch)
+  S.btnHistory.addEventListener('click', async ()=>{
+    setStatus('Fetching history...')
+    setButtonLoading(S.btnHistory, true, 'Fetching...')
+    try{
+      const res = await callApi('/api/history','GET', null, 30000)
+      if(res.ok && res.json){
+        const hist = res.json.history || res.json
+        if(Array.isArray(hist) && hist.length){
+          renderDraftToUI(hist[hist.length-1])
+          setStatus('Latest history item loaded')
+        } else {
+          alert('History fetched but empty')
+          setStatus('History empty')
+        }
+      } else {
+        setStatus('History fetch failed', true)
+        alert('History fetch failed: ' + res.status + '\n' + (res.text || res.status))
+      }
+    }catch(e){
+      setStatus('History error', true)
+      alert('History error: ' + e)
+    } finally {
+      setButtonLoading(S.btnHistory, false)
+    }
+  })
+
+  // when user edits subject/body locally, keep them in draftData (UI-only)
+  S.subjectField.addEventListener('input', ()=>{
+    if(!draftData) draftData = {}
+    const d = JSON.parse(JSON.stringify(draftData))
+    if(d.draft) d.draft.subject = S.subjectField.value
+    else d.subject = S.subjectField.value
+    draftData = d
+  })
+  S.bodyField.addEventListener('input', ()=>{
+    if(!draftData) draftData = {}
+    const d = JSON.parse(JSON.stringify(draftData))
+    if(d.draft) d.draft.body = S.bodyField.value
+    else d.body = S.bodyField.value
+    draftData = d
+  })
+
+  // initial status
+  setStatus('idle')
+})();
+</script>
+</body>
+</html>
