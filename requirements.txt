@@ -1,4 +1,4 @@
-python==3.11.9
+
 
 # LLM & LangChain
 tiktoken==0.7.0
