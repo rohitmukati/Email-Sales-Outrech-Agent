@@ -1,6 +1,10 @@
+python==3.11.9
+
 # LLM & LangChain
 tiktoken==0.7.0
 openai==1.107.3
+
+
 
 # Environment & config
 python-dotenv==1.1.1
